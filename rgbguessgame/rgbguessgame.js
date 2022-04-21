@@ -111,7 +111,7 @@ function beginnerFunc() {
     if (difficulty) {
         squareCreator(difficulty);
     } else {
-        alert("CHOOSE A DIFFICULTY AMQ!!");
+        alert("CHOOSE A DIFFICULTY!!");
         return;
     }
 }
@@ -154,5 +154,3 @@ square4.addEventListener("click", playerDecision.bind(this, 3));
 square5.addEventListener("click", playerDecision.bind(this, 4));
 square6.addEventListener("click", playerDecision.bind(this, 5));
 
-
-//bismillah:]
